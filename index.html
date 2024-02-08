@@ -2,22 +2,27 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-          integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-          crossorigin="anonymous"></script>
-  <script src="js/script.js"></script>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-        crossorigin="anonymous"/>
-  <link href="css/style.css" rel="stylesheet">
-  <title>Todoolist</title>
+
+  <!-- JQuery -->
+  <script 
+  src="https://code.jquery.com/jquery-3.7.1.slim.js"
+  integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc="
+  crossorigin="anonymous"></script>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512- 
+  iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous"/>
+
+  <!-- My Style -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>TodoList JQuery</title>
+
 </head>
 <body>
-<!--header-->
+
+ <!--header-->
 <header class="header">
   <div class="header__logo">
     Todoolean
@@ -35,14 +40,14 @@
 
 <!--main-->
 <main class="main">
-  <h1>Oggi <span class="date">Giovedì  8 feb</span></h1>
+  <h1>Oggi <span class="date">Giovedi 8 Febbraio</span></h1>
   <div class="add-todo">
-    <a href="#" class="btn"><i class="fas fa-plus"></i> Insert Todo</a>
+    <a href="#" class="btn"><i class="fas fa-plus"></i>Inserisci la Todo</a>
   </div>
   <div class="content">
     <ul class="todos">
       <li class="todos__item">
-        <div class="text"><span class="button--done"><i class="far fa-check-circle"></i></span> <span class="todo__text">Andare in palestra</span></div>
+        <div class="text"><span class="button--done"><i class="far fa-check-circle"></i></span> <span class="todo__text">Cucinare gli hamburger</span></div>
         <div class="todo__item__menu">
           <i class="other-items fas fa-ellipsis-h"></i>
           <div class="todo__item__menu__dropdown">
@@ -54,7 +59,7 @@
         </div>
       </li>
       <li class="todos__item">
-        <div class="text"><span class="button--done"><i class="far fa-check-circle"></i></span> <span class="todo__text">Studiare tailwind</span></div>
+        <div class="text"><span class="button--done"><i class="far fa-check-circle"></i></span> <span class="todo__text">Giocare a Fortnite</span></div>
         <div class="todo__item__menu">
           <i class="other-items fas fa-ellipsis-h"></i>
           <div class="todo__item__menu__dropdown">
@@ -66,7 +71,7 @@
         </div>
       </li>
       <li class="todos__item">
-        <div class="text"><span class="button--done"><i class="far fa-check-circle"></i></span> <span class="todo__text">Studiare le jQuery</span></div>
+        <div class="text"><span class="button--done"><i class="far fa-check-circle"></i></span> <span class="todo__text">Studiare le JQuery</span></div>
         <div class="todo__item__menu">
           <i class="other-items fas fa-ellipsis-h"></i>
           <div class="todo__item__menu__dropdown">
@@ -102,6 +107,9 @@
     </div>
   </li>
 </div>
-<!--  Template-->
+
+
+  <!-- My Script -->
+  <script src="js/script.js"></script>
 </body>
 </html>
