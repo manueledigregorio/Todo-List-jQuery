@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- JQuery -->
-  <script 
-  src="https://code.jquery.com/jquery-3.7.1.slim.js"
-  integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc="
-  crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.slim.js"
+    integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=" crossorigin="anonymous"></script>
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512- 
-  iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous"/>
+  iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" />
 
   <!-- My Style -->
   <link rel="stylesheet" href="css/style.css">
@@ -20,96 +19,97 @@
   <title>TodoList JQuery</title>
 
 </head>
+
 <body>
-
- <!--header-->
-<header class="header">
-  <div class="header__logo">
-    Todoolean
-  </div>
-  <div class="header__search">
-    <i class="fas fa-search"></i>
-    <input type="text" class="search">
-  </div>
-  <div class="header__menu">
-    <i class="header__item fas fa-plus"></i>
-    <div class="header__item ico-user"><span>C</span></div>
-  </div>
-</header>
-<!--/header-->
-
-<!--main-->
-<main class="main">
-  <h1>Oggi <span class="date">Giovedi 8 Febbraio</span></h1>
-  <div class="add-todo">
-    <a href="#" class="btn"><i class="fas fa-plus"></i>Inserisci la Todo</a>
-  </div>
-  <div class="content">
-    <ul class="todos">
-      <li class="todos__item">
-        <div class="text"><span class="button--done"><i class="far fa-check-circle"></i></span> <span class="todo__text">Cucinare gli hamburger</span></div>
-        <div class="todo__item__menu">
-          <i class="other-items fas fa-ellipsis-h"></i>
-          <div class="todo__item__menu__dropdown">
-            <ul class="menu">
-              <li class="button-todo--modify"><i class="fas fa-pencil-alt"></i> Modifica</li>
-              <li class="button-todo--delete"><i class="far fa-trash-alt"></i> Elimina</li>
-            </ul>
-          </div>
-        </div>
-      </li>
-      <li class="todos__item">
-        <div class="text"><span class="button--done"><i class="far fa-check-circle"></i></span> <span class="todo__text">Giocare a Fortnite</span></div>
-        <div class="todo__item__menu">
-          <i class="other-items fas fa-ellipsis-h"></i>
-          <div class="todo__item__menu__dropdown">
-            <ul class="menu">
-              <li class="button-todo--modify"><i class="fas fa-pencil-alt"></i> Modifica</li>
-              <li class="button-todo--delete"><i class="far fa-trash-alt"></i> Elimina</li>
-            </ul>
-          </div>
-        </div>
-      </li>
-      <li class="todos__item">
-        <div class="text"><span class="button--done"><i class="far fa-check-circle"></i></span> <span class="todo__text">Studiare le JQuery</span></div>
-        <div class="todo__item__menu">
-          <i class="other-items fas fa-ellipsis-h"></i>
-          <div class="todo__item__menu__dropdown">
-            <ul class="menu">
-              <li class="button-todo--modify"><i class="fas fa-pencil-alt"></i> Modifica</li>
-              <li class="button-todo--delete"><i class="far fa-trash-alt"></i> Elimina</li>
-            </ul>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</main>
-<!--/main-->
-
-<!--  Template-->
-<div class="template template--text">
-  <input type="text" class="todo__text__input">
-</div>
-
-<div class="template template--todo">
-  <li class="todos__item active">
-    <div class="text"><span class="button--done"><i class="far fa-check-circle"></i></span> <span
-            class="todo__text"> </span></div>
-    <div class="todo__item__menu">
-      <i class="other-items fas fa-ellipsis-h"></i>
-      <div class="todo__item__menu__dropdown">
-        <ul class="menu">
-          <li class="button-todo--modify"><i class="fas fa-pencil-alt"></i> Modifica</li>
-          <li class="button-todo--delete"><i class="far fa-trash-alt"></i> Elimina</li>
-        </ul>
-      </div>
+  <!--header-->
+  <header class="header">
+    <div class="header__logo">
+      Todoolist
     </div>
-  </li>
-</div>
+    <div class="header__search">
+      <i class="fas fa-search"></i>
+      <input type="text" class="search">
+    </div>
+    <div class="header__menu">
+      <i class="header__item fas fa-plus"></i>
+      <div class="header__item ico-user"><span>C</span></div>
+    </div>
+  </header>
+  <!--/header-->
 
+  <!--main-->
+  <main class="main">
+    <h1>Oggi <span class="date">Venerdì 7 Maggio</span></h1>
+    <div class="add-todo">
+      <a href="#" class="btn"><i class="fas fa-plus"></i> Insert Todo</a>
+    </div>
+    <div class="content">
+      <ul class="todos">
+        <li class="todos__item">
+          <div class="text"><span class="button--done"><i class="far fa-check-circle"></i></span> <span
+              class="todo__text">Fare la cacca</span></div>
+          <div class="todo__item__menu">
+            <i class="other-items fas fa-ellipsis-h"></i>
+            <div class="todo__item__menu__dropdown">
+              <ul class="menu">
+                <li class="button-todo--modify"><i class="fas fa-pencil-alt"></i> Modifica</li>
+                <li class="button-todo--delete"><i class="far fa-trash-alt"></i> Elimina</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="todos__item">
+          <div class="text"><span class="button--done"><i class="far fa-check-circle"></i></span> <span
+              class="todo__text">Studiare tailwind</span></div>
+          <div class="todo__item__menu">
+            <i class="other-items fas fa-ellipsis-h"></i>
+            <div class="todo__item__menu__dropdown">
+              <ul class="menu">
+                <li class="button-todo--modify"><i class="fas fa-pencil-alt"></i> Modifica</li>
+                <li class="button-todo--delete"><i class="far fa-trash-alt"></i> Elimina</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="todos__item">
+          <div class="text"><span class="button--done"><i class="far fa-check-circle"></i></span> <span
+              class="todo__text">Fare le coccole a me stesso</span></div>
+          <div class="todo__item__menu">
+            <i class="other-items fas fa-ellipsis-h"></i>
+            <div class="todo__item__menu__dropdown">
+              <ul class="menu">
+                <li class="button-todo--modify"><i class="fas fa-pencil-alt"></i> Modifica</li>
+                <li class="button-todo--delete"><i class="far fa-trash-alt"></i> Elimina</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </main>
+  <!--/main-->
 
-  <!-- My Script -->
+  <!--  Template-->
+  <div class="template template--text">
+    <input type="text" class="todo__text__input">
+  </div>
+
+  <div class="template template--todo">
+    <li class="todos__item active">
+      <div class="text"><span class="button--done"><i class="far fa-check-circle"></i></span> <span class="todo__text">
+        </span></div>
+      <div class="todo__item__menu">
+        <i class="other-items fas fa-ellipsis-h"></i>
+        <div class="todo__item__menu__dropdown">
+          <ul class="menu">
+            <li class="button-todo--modify"><i class="fas fa-pencil-alt"></i> Modifica</li>
+            <li class="button-todo--delete"><i class="far fa-trash-alt"></i> Elimina</li>
+          </ul>
+        </div>
+      </div>
+    </li>
+  </div>
   <script src="js/script.js"></script>
 </body>
+
 </html>
